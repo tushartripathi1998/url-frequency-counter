@@ -1,28 +1,3 @@
-/*var count=0;
-const { send } = require('micro');
-const url = require('url');
-
-const visits = {}
-
-module.exports = function (request, response) {
-  // Your microservice here
-/*
-        if(request.url = '/'){
-          console.log(url.parse(request.url))
-        count++;
-      }
-*/
-/*
-const { pathname } = url.parse(request.url)
-
-    if(visits[pathname]){
-      visits[pathname] = visits[pathname] + 1
-    } else {
-      visits[pathname] = 1
-    }
-  send(response, 200, '${visits[pathname]}');//request.url);//"Hey there !");
-};
-*/
 
 const { send } = require('micro')
 const url = require('url')
